@@ -1,14 +1,11 @@
 ![](https://storageapi.fleek.co/fleek-team-bucket/ic-action.png)
 
-# IC Deploy Action
-[![Fleek](https://img.shields.io/badge/Made%20by-Fleek-blue)](https://fleek.co/)
-[![Dev Slack](https://img.shields.io/badge/Dev%20Slack-Channel-blue)](https://slack.fleek.co/)
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/FleekHQ/space-sdk/blob/master/LICENSE)
+
 
 
 ## Introduction
 
-Fleek's IC deploy action wraps commands from the [dfx](https://github.com/dfinity/docs) command line tool, which deploys canister to the [Internet Computer](https://dfinity.org/).
+webI's IC deploy action wraps commands from the [dfx](https://github.com/dfinity/docs) command line tool, which deploys canister to the [Internet Computer](https://dfinity.org/).
 
 
 The Github Action will trigger a new deployment to the Internet Computer when commits are pushed.
