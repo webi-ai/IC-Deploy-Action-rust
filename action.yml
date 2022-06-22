@@ -1,4 +1,4 @@
-name: 'webI RUST IC Action'
+name: 'webI Rust IC Action'
 description: 'Deploy to the IC'
 author: 'webI.ai'
 branding:
