@@ -12,7 +12,7 @@ COPY entrypoint.sh /home/node/entrypoint.sh
 USER root
 
 WORKDIR /root
-RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
+ARG DEBIAN_FRONTEND=noninteractive
 # common packages
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
