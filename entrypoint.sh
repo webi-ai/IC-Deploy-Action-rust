@@ -24,8 +24,6 @@ rustup install stable
 
 rustup target add wasm32-unknown-unknown
 
-cargo install ic-cdk-optimizer
-
 echo "Deploying to the IC"
 
 dfx deploy --network=$INPUT_NETWORK $INPUT_DFX_PARAMS
