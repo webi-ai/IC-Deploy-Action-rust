@@ -144,6 +144,3 @@ To submit a feature, bug fix, or enhancement to Deploy Actions, follow these ste
 
 We value and appreciate all contributions.
 
-## License
-
-webi-ai IC Deploy Action is licensed under a [GNU General Public License](LICENSE)
