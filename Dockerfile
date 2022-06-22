@@ -18,7 +18,7 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y \
     ca-certificates curl file \
     build-essential \
-    autoconf automake autotools-dev libtool xutils-dev && \
+    autoconf automake autotools-dev libtool xutils-dev cmake && \
     rm -rf /var/lib/apt/lists/*
 
 ENV SSL_VERSION=1.0.2u
