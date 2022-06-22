@@ -12,7 +12,7 @@ COPY entrypoint.sh /home/node/entrypoint.sh
 USER root
 
 WORKDIR /root
-
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC
 # common packages
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
