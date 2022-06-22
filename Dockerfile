@@ -42,8 +42,6 @@ RUN rustup install stable
 
 RUN rustup target add wasm32-unknown-unknown
 
-RUN cargo install ic-cdk-optimizer --root target
-
 
 
 # RUN apk add --update curl
