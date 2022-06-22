@@ -1,6 +1,6 @@
-name: 'Fleek IC Action'
-description: 'Deploys canisters to the IC'
-author: 'Fleek Labs'
+name: 'webI RUST IC Action'
+description: 'Deploy to the IC'
+author: 'webI.ai'
 branding:
   icon: circle
   color: gray-dark
