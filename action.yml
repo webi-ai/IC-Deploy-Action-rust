@@ -1,0 +1,24 @@
+name: 'Fleek IC Action'
+description: 'Deploys canisters to the IC'
+author: 'Fleek Labs'
+branding:
+  icon: circle
+  color: gray-dark
+inputs:
+  identity:
+    description: 'IC identity for deploying the canisters'
+    required: true
+  wallets:
+    description: 'IC wallets for deploying the canisters'
+    required: true 
+  network:
+    description: 'The network that the canister will be deployed to'
+    required: false
+    default: 'ic'
+  dfx_params:
+    description: 'Parameters appended to the dfx command'
+    required: false
+    default: ''    
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
