@@ -27,7 +27,7 @@ jobs:
         run: npm install
       - name: Deploy canisters
         id: deploy
-        uses: fleekhq/ic-deploy-action@master
+        uses: webi-ai/ic-deploy-action-rust@master
         with:
           identity: ${{ secrets.DFX_IDENTITY }}
           wallets: ${{ secrets.DFX_WALLETS }}
@@ -94,7 +94,7 @@ jobs:
         run: npm install
       - name: Deploy canisters
         id: deploy
-        uses: fleekhq/ic-deploy-action@master
+        uses: webi-ai/ic-deploy-action-rust@master
         with:
           identity: ${{ secrets.DFX_IDENTITY }}
           wallets: ${{ secrets.DFX_WALLETS }}
@@ -120,7 +120,7 @@ jobs:
         run: npm install
       - name: Deploy canisters
         id: deploy
-        uses: fleekhq/ic-deploy-action@master
+        uses: webi-ai/ic-deploy-action-rust@master
         with:
           identity: ${{ secrets.DFX_IDENTITY }}
           wallets: ${{ secrets.DFX_WALLETS }}
@@ -140,10 +140,10 @@ To submit a feature, bug fix, or enhancement to Deploy Actions, follow these ste
 1. Fork this repository.
 2. Make desired changes.
 3. Confirm a successful Docker build with `docker build -t fleekhq/IC-Deploy-Action .`.
-4. [Open a Pull Request and follow the prompts](https://github.com/fleekhq/IC-Deploy-Action/compare).
+4. [Open a Pull Request and follow the prompts](https://github.com/webi-ai/IC-Deploy-Action-rust/compare).
 
 We value and appreciate all contributions.
 
 ## License
 
-Fleeks IC Deploy Action is licensed under a [GNU General Public License](LICENSE)
+webi-ai IC Deploy Action is licensed under a [GNU General Public License](LICENSE)
